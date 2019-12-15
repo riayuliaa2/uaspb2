@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/antiquewhite2_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Your New News"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center" />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/news"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="90dp" />
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="320dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="Choose One of The Menu: " />
+
+    <Button
+        android:id="@+id/newlist"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="500dp"
+        android:textColor="#8b3a3a"
+        android:backgroundTint="#ffff"
+        android:onClick="newslist"
+        android:text="News List" />
+
+    <Button
+        android:id="@+id/galery"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="500dp"
+        android:textColor="#8b3a3a"
+        android:backgroundTint="#ffff"
+        android:onClick="galery"
+        android:text="Galery" />
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="550dp"
+        android:textColor="#8b3a3a"
+        android:backgroundTint="#ffff"
+        android:onClick="aboutus"
+        android:text="About Us" />
+
+    <Button
+        android:id="@+id/contactus"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="550dp"
+        android:textColor="#8b3a3a"
+        android:backgroundTint="#ffff"
+        android:onClick="contactus"
+        android:text="Contact Us" />
+
+</RelativeLayout>
